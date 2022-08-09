@@ -9,6 +9,6 @@ public class BoolObservable : BoolVariable
     public override void SetValue(bool newValue)
     {
         base.SetValue(newValue);
-        onPauseChanged.RaiseEvent(newValue); //why new in asteroid
+        onPauseChanged.RaiseEvent(newValue); 
     }
 }
